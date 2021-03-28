@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+}
+
+section h1 {
+    color: white;
+    font-size: 400%;
+}
+
+section h2 {
+    font-size: 300%;
+}
+
+section h3 {
+    font-size: 200%;
+}
+
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.highlight h1 {
+    padding-top: 45vh;
+    color: black;
+}
+
+.highlight {
+    text-align: right;
+    transform: translate(-50%);
+}
